@@ -35,7 +35,7 @@ public class AppTestA extends BaseTest{
   public void testa(){
 	  
 	  
-	  
+	  System.out.println("test");
 	  
 
 	  
