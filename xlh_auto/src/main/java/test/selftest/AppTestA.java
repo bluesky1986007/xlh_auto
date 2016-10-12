@@ -33,10 +33,6 @@ public class AppTestA extends BaseTest{
   
   @Test(enabled=true)
   public void testa(){
-	  
-	  
-	  System.out.println("test");
-	  
 
 	  
   }
