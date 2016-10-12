@@ -1,0 +1,10 @@
+#android chuangye
+chuangyeAppPackage=com.easyrongchuangye
+chuangyeAppActivity=.activities.EasyrongChuangyeActivity
+
+#android fund
+fundAppPackage=com.easyrongfund
+fundAppActivity=.activities.EasyrongFundMainActivity
+
+platformVersion=4.4
+url=http://127.0.0.1:4723/wd/hub
