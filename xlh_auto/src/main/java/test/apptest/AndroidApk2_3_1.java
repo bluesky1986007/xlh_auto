@@ -39,6 +39,8 @@ public class AndroidApk2_3_1 extends BaseTest {
 		driver = appCommonService.appLogin(driver,datadriven.get("userName"),datadriven.get("userPassWord"));
 
 		driver.quit();
+		
+		System.out.println("test");
 
 	}
 
