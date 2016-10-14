@@ -2,10 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
 <suite name="Suite_Mail" verbose="1">
 
-    <suite-files>
-<!--     <suite-file path="classpath:testngMail.xml" /> -->
-      <suite-file path="E:\GitHub\xlh\xlh_auto\testngTestCases.xml" />
-      <suite-file path="E:\GitHub\xlh\xlh_auto\testng.xml" />
+    <suite-files>     
+      <suite-file path="./testngTestCases.xml" />
+      <suite-file path="./testng.xml" />      
     </suite-files>
 	
 	<test name="email">
