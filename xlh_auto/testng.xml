@@ -4,8 +4,8 @@
 
     <suite-files>
 <!--     <suite-file path="classpath:testngMail.xml" /> -->
-      <suite-file path="D:\workspace\workspace-qa\xlh_auto\testngTestCases.xml" />
-      <suite-file path="D:\workspace\workspace-qa\xlh_auto\testng.xml" />
+      <suite-file path="E:\GitHub\xlh\xlh_auto\testngTestCases.xml" />
+      <suite-file path="E:\GitHub\xlh\xlh_auto\testng.xml" />
     </suite-files>
 	
 	<test name="email">
