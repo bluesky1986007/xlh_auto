@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite_TestResults]">
-  <test name="appForAndroid(failed)">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="test.apptest.AndroidApk2_3_1">
         <methods>
+          <include name="interviewProcess" invocation-numbers="0"/>
           <include name="springTestContextBeforeTestMethod"/>
           <include name="beforeClass"/>
           <include name="springTestContextPrepareTestInstance"/>
-          <include name="inquiryProcess" invocation-numbers="0"/>
           <include name="springTestContextAfterTestMethod"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- test.apptest.AndroidApk2_3_1 -->
     </classes>
-  </test> <!-- appForAndroid(failed) -->
-</suite> <!-- Failed suite [Suite_TestResults] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

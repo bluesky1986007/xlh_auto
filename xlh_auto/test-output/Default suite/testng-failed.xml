@@ -5,9 +5,11 @@
     <classes>
       <class name="test.apptest.AndroidApk2_3_1">
         <methods>
-          <include name="inquiry"/>
+          <include name="interviewProcess" invocation-numbers="0"/>
+          <include name="springTestContextBeforeTestMethod"/>
           <include name="beforeClass"/>
           <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
           <include name="afterClass"/>
         </methods>
       </class> <!-- test.apptest.AndroidApk2_3_1 -->

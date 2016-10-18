@@ -113,8 +113,6 @@
 	<classpathentry kind="lib" path="E:/GitHub/xlh/xlh_auto/libs/rm-hibernate-base-1.0.6.jar"/>
 	<classpathentry kind="lib" path="E:/GitHub/xlh/xlh_auto/libs/rm-rmca-api-1.0.6.jar"/>
 	<classpathentry kind="lib" path="E:/GitHub/xlh/xlh_auto/libs/saaj-1.2.jar"/>
-	<classpathentry kind="lib" path="E:/GitHub/xlh/xlh_auto/libs/selenium-java-2.25.0.jar"/>
-	<classpathentry kind="lib" path="E:/GitHub/xlh/xlh_auto/libs/selenium-java-2.25.0-srcs.jar"/>
 	<classpathentry kind="lib" path="E:/GitHub/xlh/xlh_auto/libs/slf4j-api-1.5.8.jar"/>
 	<classpathentry kind="lib" path="E:/GitHub/xlh/xlh_auto/libs/slf4j-log4j12-1.5.8.jar"/>
 	<classpathentry kind="lib" path="E:/GitHub/xlh/xlh_auto/libs/smtp.jar"/>
@@ -141,5 +139,7 @@
 	<classpathentry kind="lib" path="E:/GitHub/xlh/xlh_auto/libs/xblink-1.0.0-jdk5.jar"/>
 	<classpathentry kind="lib" path="E:/GitHub/xlh/xlh_auto/libs/xercesImpl-2.6.2.jar"/>
 	<classpathentry kind="lib" path="E:/GitHub/xlh/xlh_auto/libs/xmemcached-1.3.5.jar"/>
+	<classpathentry kind="lib" path="E:/GitHub/xlh/xlh_auto/libs/selenium-java-2.25.0.jar"/>
+	<classpathentry kind="lib" path="E:/GitHub/xlh/xlh_auto/libs/selenium-java-2.25.0-srcs.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

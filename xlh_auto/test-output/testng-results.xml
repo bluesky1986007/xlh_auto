@@ -2,84 +2,73 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite_TestResults" duration-ms="36392" started-at="2016-10-12T06:25:52Z" finished-at="2016-10-12T06:26:29Z">
+  <suite name="Suite_TestResults" duration-ms="156211" started-at="2016-10-18T09:25:07Z" finished-at="2016-10-18T09:27:43Z">
     <groups>
     </groups>
-    <test name="appForAndroid" duration-ms="36392" started-at="2016-10-12T06:25:52Z" finished-at="2016-10-12T06:26:29Z">
+    <test name="appForAndroid" duration-ms="156211" started-at="2016-10-18T09:25:07Z" finished-at="2016-10-18T09:27:43Z">
       <class name="test.apptest.AndroidApk2_3_1">
-        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:test.apptest.AndroidApk2_3_1@1c74f37]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="616" started-at="2016-10-12T14:25:52Z" finished-at="2016-10-12T14:25:53Z">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:test.apptest.AndroidApk2_3_1@19d0a1]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="619" started-at="2016-10-18T17:25:07Z" finished-at="2016-10-18T17:25:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.apptest.AndroidApk2_3_1@1c74f37]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-10-12T14:25:53Z" finished-at="2016-10-12T14:25:53Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.apptest.AndroidApk2_3_1@19d0a1]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-10-18T17:25:07Z" finished-at="2016-10-18T17:25:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:test.apptest.AndroidApk2_3_1@1c74f37]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-10-12T14:25:53Z" finished-at="2016-10-12T14:25:53Z">
+        <test-method status="PASS" signature="interviewProcess(java.util.Map)[pri:0, instance:test.apptest.AndroidApk2_3_1@19d0a1]" name="interviewProcess" duration-ms="155179" started-at="2016-10-18T17:25:08Z" description="约谈流程" data-provider="testData" finished-at="2016-10-18T17:27:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void test.apptest.AndroidApk2_3_1.inquiryProcess(java.util.Map) throws java.lang.Exception]]>
+                <![CDATA[{fundApkName=EasyrongFund_pre_2_2_1.apk, fundPassword=xlh123456, interviewProject=谷泉橡木卡狠狠哭拉萨, seq=1, checkDate=2016-10-18, changyeUserName=18200000099, changyeApkName=EasyrongChuangye_pre_2_3_1.apk, fundUserName=lkj123, chuangyePassword=xlh123456, interviewComments=app自动化测试用评论123}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- interviewProcess -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:test.apptest.AndroidApk2_3_1@19d0a1]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-10-18T17:25:08Z" finished-at="2016-10-18T17:25:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.apptest.AndroidApk2_3_1.interviewProcess(java.util.Map) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="inquiryProcess(java.util.Map)[pri:0, instance:test.apptest.AndroidApk2_3_1@1c74f37]" name="inquiryProcess" duration-ms="35468" started-at="2016-10-12T14:25:53Z" description="问诊流程" data-provider="inquiryProcess" finished-at="2016-10-12T14:26:29Z">
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:test.apptest.AndroidApk2_3_1@19d0a1]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-10-18T17:27:43Z" finished-at="2016-10-18T17:27:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{fundApkName=EasyrongFund_pre_2_2_1.apk, userPassWord=xlh123456, seq=1, userName=13000000001, changyeApkName=EasyrongChuangye_pre_2_3_1.apk}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inquiryProcess -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:test.apptest.AndroidApk2_3_1@1c74f37]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="3" started-at="2016-10-12T14:26:29Z" finished-at="2016-10-12T14:26:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void test.apptest.AndroidApk2_3_1.inquiryProcess(java.util.Map) throws java.lang.Exception]]>
+                <![CDATA[public void test.apptest.AndroidApk2_3_1.interviewProcess(java.util.Map) throws java.lang.Exception]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.apptest.AndroidApk2_3_1@1c74f37]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-10-12T14:26:29Z" finished-at="2016-10-12T14:26:29Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.apptest.AndroidApk2_3_1@19d0a1]" name="afterClass" is-config="true" duration-ms="1" started-at="2016-10-18T17:27:43Z" finished-at="2016-10-18T17:27:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- test.apptest.AndroidApk2_3_1 -->
     </test> <!-- appForAndroid -->
   </suite> <!-- Suite_TestResults -->
-  <suite name="Suite_Mail" duration-ms="5900" started-at="2016-10-12T06:26:29Z" finished-at="2016-10-12T06:26:35Z">
+  <suite name="Suite_Mail" duration-ms="3540" started-at="2016-10-18T09:27:43Z" finished-at="2016-10-18T09:27:47Z">
     <groups>
     </groups>
-    <test name="email" duration-ms="5900" started-at="2016-10-12T06:26:29Z" finished-at="2016-10-12T06:26:35Z">
+    <test name="email" duration-ms="3540" started-at="2016-10-18T09:27:43Z" finished-at="2016-10-18T09:27:47Z">
       <class name="test.utils.Mail">
-        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:test.utils.Mail@196c1b0]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="8" started-at="2016-10-12T14:26:29Z" finished-at="2016-10-12T14:26:29Z">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:test.utils.Mail@1292d26]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="28" started-at="2016-10-18T17:27:43Z" finished-at="2016-10-18T17:27:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextPrepareTestInstance -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.utils.Mail@196c1b0]" name="beforeClass" is-config="true" duration-ms="0" started-at="2016-10-12T14:26:29Z" finished-at="2016-10-12T14:26:29Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:test.utils.Mail@1292d26]" name="beforeClass" is-config="true" duration-ms="1" started-at="2016-10-18T17:27:43Z" finished-at="2016-10-18T17:27:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:test.utils.Mail@196c1b0]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2016-10-12T14:26:29Z" finished-at="2016-10-12T14:26:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void test.utils.Mail.sendAutomationReports(java.lang.String) throws java.lang.Exception]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- springTestContextBeforeTestMethod -->
-        <test-method status="PASS" signature="sendAutomationReports(java.lang.String)[pri:0, instance:test.utils.Mail@196c1b0]" name="sendAutomationReports" duration-ms="5886" started-at="2016-10-12T14:26:29Z" finished-at="2016-10-12T14:26:35Z">
+        <test-method status="PASS" signature="sendAutomationReports(java.lang.String)[pri:0, instance:test.utils.Mail@1292d26]" name="sendAutomationReports" duration-ms="3498" started-at="2016-10-18T17:27:43Z" finished-at="2016-10-18T17:27:47Z">
           <params>
             <param index="0">
               <value>
@@ -90,7 +79,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sendAutomationReports -->
-        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:test.utils.Mail@196c1b0]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2016-10-12T14:26:35Z" finished-at="2016-10-12T14:26:35Z">
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:test.utils.Mail@1292d26]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2016-10-18T17:27:43Z" finished-at="2016-10-18T17:27:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.utils.Mail.sendAutomationReports(java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.utils.Mail@1292d26]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-10-18T17:27:47Z" finished-at="2016-10-18T17:27:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:test.utils.Mail@1292d26]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2016-10-18T17:27:47Z" finished-at="2016-10-18T17:27:47Z">
           <params>
             <param index="0">
               <value>
@@ -101,10 +105,6 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- springTestContextAfterTestMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:test.utils.Mail@196c1b0]" name="afterClass" is-config="true" duration-ms="0" started-at="2016-10-12T14:26:35Z" finished-at="2016-10-12T14:26:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
       </class> <!-- test.utils.Mail -->
     </test> <!-- email -->
   </suite> <!-- Suite_Mail -->

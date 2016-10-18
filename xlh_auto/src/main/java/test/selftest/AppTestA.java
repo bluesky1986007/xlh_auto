@@ -4,7 +4,9 @@ import java.net.MalformedURLException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.android.AndroidDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +22,8 @@ public class AppTestA extends BaseTest{
 
 	  @Autowired
 	  private InitialService Initial;
+	  
+	  public WebDriver driver2;
 	  	  
 	  public AndroidDriver driver;
 	  public String changyeApkNameString="EasyrongChuangye2_1.apk";
@@ -33,6 +37,20 @@ public class AppTestA extends BaseTest{
   
   @Test(enabled=true)
   public void testa(){
+	  
+	   System.setProperty("webdriver.firefox.bin",
+			   "D:\\Program Files\\Mozilla Firefox\\firefox.exe");
+	   
+	   driver2 = new FirefoxDriver();
+	   
+	   driver2.get("http://www.yirongbang.net/");
+	   driver2.manage().window().maximize();
+	   
+	   new WebDriverWait(driver2,30).until(ExpectedConditions.elementToBeClickable(By.linkText("一融孵化"))).click();
+
+//	   driver2.findElement(By.linkText("请登录")).click();
+	   
+	   driver2.quit();
 
 	  
   }
