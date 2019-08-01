@@ -35,7 +35,7 @@ public class AndroidApk2_3_1 extends BaseTest {
 	}
 
 
-	@Test(enabled = true, dataProvider = "testData",description="约谈流程")
+	@Test(enabled = true, dataProvider = ""+"testData",description="约谈流程")
 	public void interviewProcess(Map<String, String> datadriven)throws Exception {
 
 //		driver = Initial.appiumAndroidChuangyeSetUp(driver, datadriven.get("changyeApkName"));
